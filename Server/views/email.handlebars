@@ -1,0 +1,35 @@
+<html lang="en">
+
+    {{!-- <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tailwind CSS Simple Email Template Example </title>
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    </head> --}}
+    <body>
+        <div class="flex items-center justify-center min-h-screen p-5 bg-blue-100 min-w-screen">
+            <div class="max-w-xl p-8 text-center text-gray-800 bg-white shadow-xl lg:max-w-3xl rounded-3xl lg:p-12">
+                <h3 class="text-3xl font-semibold">Thanks for signing up with JobDekho!</h3>
+                <p class="text-lg text-blue-900">We're happy you're here. Let's get your email address verified:</p>
+                <div class="mt-4">
+                  <a href={{text}}>
+                    <button
+                    class="px-2 py-2 text-lg text-blue-200 bg-blue-600 rounded hover:bg-blue-900 hover:text-white">Click to Verify Email</button>
+                    </a>
+                    <p class="mt-4 text-sm">If you're having trouble clicking the "Verify Email Address" button, copy
+                        and
+                        paste
+                        the URL below
+                        into your web browser:
+                        <br/>
+                        <div class="mt-1">
+                        <a href={{text}} class="text-blue-600 underline mt-2 hover:text-blue-800">{{text}}</a>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+

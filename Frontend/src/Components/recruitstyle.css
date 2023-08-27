@@ -1,0 +1,52 @@
+#recruitform{
+    display:flex;
+    justify-content: center;
+    background-image: url("img.jpeg"); 
+    width: 100vw;
+    min-height: 102vh;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15%;
+  }
+  
+  #recruitform input{
+    background-color: rgb(236, 241, 236);
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size:large;
+    height: 39px;
+    width: 256px;
+    padding: 4%;
+    margin-bottom: 10%;
+    border: 1px solid #651616;
+    border-radius: 20px;
+    align-items: center;
+    -ms-flex-align: center;
+  }
+  
+  #recruitform #subbutton{
+    display: inline-block;
+    border-radius: 15px;
+    background-color: #050938;
+    border: none;
+    color: rgb(243, 237, 237);
+    text-align: center;
+    font-size: 22px;
+    padding: 9px;
+    cursor: pointer;
+    position: relative;
+    margin: 5px;
+    width : 7rem;
+    height: 3rem;
+    left: 25%;
+    box-shadow: 0 6px #3511ec;
+  }
+  #recruitform #subbutton:hover {background-color: #3511ec}
+  
+  #recruitform #subbutton:active {
+    background-color: #e70f0f;
+    box-shadow: 0 5px #f3f2f7;
+    transform: translateY(4px);
+  }

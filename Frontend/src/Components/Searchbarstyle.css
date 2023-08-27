@@ -1,0 +1,32 @@
+/*   
+  
+   .MuiFormControl-root{
+    border-radius: 40px;
+} 
+
+.MuiOutlinedinput-root {
+
+    color: red;
+    border-radius: 40px;
+}  
+
+
+    .MuiAutocomplete-inputRoot  {
+    position: relative;
+    border-radius: 40px;
+}
+
+.Mui-focused .MuiInputLabel-outlined {
+
+    color: purple;
+    border-color: purple;
+}
+
+.MuiOutlinedInput-notchedOutline{
+    color: purple;
+    border-color: purple;
+}
+
+.Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color: purple;
+} */
