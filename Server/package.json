@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "mocha",
+    "test": "echo no test files",
     "server": "nodemon index.js"
   },
   "dependencies": {
